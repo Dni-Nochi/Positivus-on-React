@@ -1,5 +1,5 @@
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { AppReact } from './App';
+import { Header } from './components/header';
 
-ReactDOM.createRoot(document.getElementById('root')).render(<AppReact />);
+ReactDOM.createRoot(document.getElementById('root')).render(<Header />);

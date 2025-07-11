@@ -1,3 +1,0 @@
-function AppReact() {}
-
-export { AppReact };
