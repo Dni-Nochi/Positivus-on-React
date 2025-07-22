@@ -1,1 +1,7 @@
 @import 'tailwindcss';
+
+@layer utilities {
+  .li-red:nth-child(3) {
+    padding-right: 0;
+  }
+}

@@ -1,17 +1,18 @@
 export const pageName = [
   {
-    title: 'About us',
+    title: 'Алматы',
+    href: 'http://127.0.0.1:5500/Index.html',
   },
   {
-    title: 'Services',
+    title: 'Русский',
   },
   {
-    title: 'Use Cases',
+    title: 'Sales маркет',
   },
   {
-    title: 'Pricing',
+    title: 'Адреса магазинов',
   },
   {
-    title: 'Blog',
+    title: 'Сервисные центры',
   },
 ];

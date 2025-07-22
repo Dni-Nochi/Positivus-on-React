@@ -1,17 +1,22 @@
 import { pageName } from '../../data';
+import location from '../img/location_marker.svg';
+import arrow from '../img/down_arrow.svg';
+import { Li } from './Li';
+import { Search } from './Search';
 
-import { Ol } from './Ol';
-
-function Nav(props) {
+function Nav() {
   return (
-    <nav>
-      <ul>
-        <Ol {...pageName[0]} />
-        <Ol {...pageName[1]} />
-        <Ol {...pageName[2]} />
-        <Ol {...pageName[3]} />
-        <Ol {...pageName[4]} />
-        {props.children}
+    <nav className="flex justify-between items-center mx-[50px] text-[#fff]">
+      <ul className="flex mt-4">
+        <img src={location} />
+        <Li {...pageName[0]} />
+        <Li {...pageName[1]} />
+        <img src={arrow} />
+      </ul>
+      <ul className="flex gap-2.5 mt-4">
+        <Li {...pageName[2]} />
+        <Li {...pageName[2]} />
+        <Li {...pageName[2]} />
       </ul>
     </nav>
   );
