@@ -6,14 +6,14 @@ import { Search } from './Search';
 
 function Nav() {
   return (
-    <nav className="flex justify-between items-center mx-[50px] text-[#fff]">
-      <ul className="flex mt-4">
+    <nav className="flex justify-between items-center pt-4 mx-[50px] text-[#fff]">
+      <ul className="flex">
         <img src={location} />
         <Li {...pageName[0]} />
         <Li {...pageName[1]} />
         <img src={arrow} />
       </ul>
-      <ul className="flex gap-2.5 mt-4">
+      <ul className="flex gap-2.5">
         <Li {...pageName[2]} />
         <Li {...pageName[2]} />
         <Li {...pageName[2]} />
